@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    max-width: 1184px;
+    max-height: 52px;
+    margin-bottom: 56px;
+    box-sizing: border-box;
+   
+}

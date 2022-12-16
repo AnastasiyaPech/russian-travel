@@ -1,0 +1,8 @@
+.logo_place_header {
+    position: relative;
+    background-image: url(/Images/header-logo.svg);
+    box-sizing: border-box;
+    margin: 0;
+    margin-right: 931px;
+    z-index: 5;
+}
