@@ -6,7 +6,7 @@
     column-gap: 16px;
     max-width: 1184px;
     max-height: 671px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin: 0 auto;
+    margin-bottom: 95px;
     box-sizing: border-box;
 }

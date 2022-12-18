@@ -1,8 +1,17 @@
 .place {
-    display: flex;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: 152px 460px;
+    row-gap: 48px;
+    column-gap: 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 80px;
     max-width: 984px;
     max-height: 660px;
-    box-sizing: border-box;
-    flex-direction: row;
-    /*justify-content: space-between;*/
+}
+
+.place:last-child{
+    margin-bottom: 89px;
+    max-height: 584px;
 }
