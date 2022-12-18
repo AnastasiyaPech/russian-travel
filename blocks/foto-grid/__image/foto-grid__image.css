@@ -1,7 +1,5 @@
-.foto-grid{
-    display: grid;
-    grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(4, 213px);
-    row-gap: 16px;
-    column-gap: 16px;
+.foto-grid__image{
+    width: 284px;
+    height: 213px;
+    box-sizing: border-box;
 }
