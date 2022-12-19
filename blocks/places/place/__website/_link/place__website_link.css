@@ -6,5 +6,8 @@
     width: 456px;
     height: 22px;
     color: #ffffff;
-    text-decoration: none;
+}
+
+.place__website_link:hover{
+    opacity: 0.5;
 }
