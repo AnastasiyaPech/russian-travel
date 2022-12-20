@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
+<body class="general-color">
     <div class="page">
         <header class="header">
             <div class="logo logo_place_header"> </div>
@@ -19,10 +18,12 @@
             </div>
         </header>
         <main class="content">
-            <section class="lead">
-                <h1 class="lead__title">Путешествия по России</h1>
-                <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img src="./Images/lead-polka.jpg" class="lead__image" alt="верхняя полка" />
+            <section class="travel">
+                <div class="lead">
+                    <h1 class="lead__title">Путешествия по России</h1>
+                    <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+                    <img src="./images/lead-polka.jpg" class="lead__image" alt="верхняя полка" />
+                </div>
                 <p class="lead__caption">ваша полка — верхняя</p>
             </section>
             <section class="intro">
@@ -42,25 +43,38 @@
                     <li class="list__description">Аэропортов 241</li>
                 </ul>
             </section>
-            <section class="foto-grid">
-                <img src="./Images/photo-grid-train.jpg" class="foto-grid__image" alt="поезд" />
-                <img src="./Images/photo-grid-atharva-tulsi.jpg" class="foto-grid__image" alt="облака" />
-                <img src="./Images/photo-grid-tuman.jpg" class="foto-grid__image" alt="туман" />
-                <img src="./Images/photo-grid-sochi.jpg" class="foto-grid__image" alt="Сочи" />
-                <img src="./Images/photo-grid-arisa.jpg" class="foto-grid__image" alt="лед" />
-                <img src="./Images/photo-grid-baikal.jpg" class="foto-grid__image" alt="Байкал" />
-                <img src="./Images/photo-grid-elbrus.jpg" class="foto-grid__image" alt="Эльбрус" />
-                <img src="./Images/photo-grid-kondratiev.jpg" class="foto-grid__image"
-                    alt="знак пешеходного перехода" />
-                <img src="./Images/photo-grid-kamchatka-1.jpg" class="foto-grid__image" alt="Камчатка" />
-                <img src="./Images/photo-grid-kamchatka-2.jpg" class="foto-grid__image" alt="Камчатка" />
-                <img src="./Images/photo-grid-baikal-2.jpg" class="foto-grid__image" alt="Байкал" />
-                <img src="./Images/photo-grid-ergaki.jpg" class="foto-grid__image" alt="Ергаки" />
+            <section class="foto">
+                <ul class="foto-grid">
+                    <li class="foto-grid__column"><img src="./images/photo-grid-train.jpg" class="foto-grid__image"
+                            alt="поезд" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-atharva-tulsi.jpg" class="foto-grid__image"
+                            alt="облака" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-tuman.jpg" class="foto-grid__image"
+                            alt="туман" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-sochi.jpg" class="foto-grid__image"
+                            alt="Сочи" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-arisa.jpg" class="foto-grid__image"
+                            alt="лед" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-baikal.jpg" class="foto-grid__image"
+                            alt="Байкал" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-elbrus.jpg" class="foto-grid__image"
+                            alt="Эльбрус" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-kondratiev.jpg" class="foto-grid__image"
+                            alt="знак пешеходного перехода" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-kamchatka-1.jpg" class="foto-grid__image"
+                            alt="Камчатка" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-kamchatka-2.jpg" class="foto-grid__image"
+                            alt="Камчатка" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-baikal-2.jpg" class="foto-grid__image"
+                            alt="Байкал" /></li>
+                    <li class="foto-grid__column"><img src="./images/photo-grid-ergaki.jpg" class="foto-grid__image"
+                            alt="Ергаки" /></li>
+                </ul>
             </section>
             <section class="places">
                 <div class="place">
                     <h2 class="place__title">Куршская коса</h2>
-                    <img src="./Images/place-kosa.jpg" class="place__image" alt="Куршская коса" />
+                    <img src="./images/place-kosa.jpg" class="place__image" alt="Куршская коса" />
                     <div class="place__website">
                         <p class="place__website_url-heading">URL</p>
                         <a href="http://park-kosa.ru" class="place__website_link">park-kosa.ru</a>
@@ -81,7 +95,7 @@
                 </div>
                 <div class="place">
                     <h2 class="place__title">Кольский</h2>
-                    <img src="./Images/place-kolsky.jpg" class="place__image" alt="Кольский полуостров" />
+                    <img src="./images/place-kolsky.jpg" class="place__image" alt="Кольский полуостров" />
                     <div class="place__website">
                         <p class="place__website_url-heading">URL</p>
                         <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -101,7 +115,7 @@
                 </div>
                 <div class="place">
                     <h2 class="place__title">Алтай</h2>
-                    <img src="./Images/place-altai.jpg" class="place__image" alt="Алтай" />
+                    <img src="./images/place-altai.jpg" class="place__image" alt="Алтай" />
                     <div class="place__website">
                         <p class="place__website_url-heading">URL</p>
                         <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__website_link">YouTube </a>
@@ -119,7 +133,7 @@
                 </div>
                 <div class="place">
                     <h2 class="place__title">Зимний Байкал</h2>
-                    <img src="./Images/place-winter-baikal.jpg" class="place__image" alt="Зимний Байкал" />
+                    <img src="./images/place-winter-baikal.jpg" class="place__image" alt="Зимний Байкал" />
                     <div class="place__website">
                         <p class="place__website_url-heading">URL</p>
                         <a href="https://vk.com/baikalmile" class="place__website_link">https://vk.com/baikalmile </a>
@@ -136,7 +150,7 @@
                 </div>
                 <div class="place">
                     <h2 class="place__title">Карелия</h2>
-                    <img src="./Images/place-karelia.jpg" class="place__image" alt="Карелия" />
+                    <img src="./images/place-karelia.jpg" class="place__image" alt="Карелия" />
                     <div class="place__website">
                         <p class="place__website_url-heading">URL</p>
                         <a href="http://vodlozero.ru/" class="place__website_link">http://vodlozero.ru/ </a>
@@ -156,7 +170,7 @@
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
                     электричках.</p>
-                    <div class="cover__overlay"></div>
+                <div class="cover__overlay"></div>
             </section>
         </main>
         <footer class="footer">

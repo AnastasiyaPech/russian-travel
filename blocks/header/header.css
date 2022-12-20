@@ -3,9 +3,8 @@
     flex-direction: row;
     max-width: 1184px;
     max-height: 52px;
-    margin: 0 auto;
-    margin-bottom: 56px;
+    margin: 0 auto 56px;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 28px;
+    padding: 28px 48px 0;
 }

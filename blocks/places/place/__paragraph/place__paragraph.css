@@ -1,5 +1,18 @@
 .place__paragraph {
     display: flex;
     flex-direction: column;
+    max-width: 484px;
 
+}
+
+@media screen and (max-width: 1024px){
+    .place__paragrath {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .place__paragrath {
+        max-width: 352px;
+    }
 }

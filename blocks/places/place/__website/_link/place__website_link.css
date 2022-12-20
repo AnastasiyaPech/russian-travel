@@ -8,6 +8,9 @@
     color: #ffffff;
 }
 
-.place__website_link:hover{
+.place__website_link:hover {
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     opacity: 0.5;
 }
