@@ -51,9 +51,17 @@
 
 @media screen and (max-width: 320px) {
     .place {
-        grid-template-columns: 288px;
-    
-        row-gap: 12px;
-        margin-bottom: 64px;
+        grid-template-columns: 320px;
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 32px;
+        grid-template-areas: 
+        "title"
+        "website"
+        "image"
+        "paragraph";
+        margin: 0;
+        min-height: 990px;
+        box-sizing: border-box;
+        
     }
 }
