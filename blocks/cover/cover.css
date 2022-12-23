@@ -1,12 +1,4 @@
 .cover {
-    display: flex;
-    flex-direction: column;
-    background-image: url(../../images/cover-trains.jpg);
-    max-width: 1024px;
-    max-height: 640px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    background-size: cover;
     position: relative;
     
 }
@@ -14,6 +6,6 @@
 @media screen and (max-width: 320px) {
     .cover {
         min-width: 320px;
-        min-height: 200px;
+        
     }
 }

@@ -2,21 +2,19 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
     max-width: 560px;
-    max-height: 152px;
-    margin: 245px auto 32px;
-    text-align: center;
+    margin: 0;
     position: relative;
     z-index: 5;
+    margin-bottom: 32px;
+    line-height: 1;
 }
 
 @media screen and (max-width: 320px) {
     .cover__title {
         min-width: 288px;
-        min-height: 70px;
         font-size: 32px;
         line-height: 35px;
-        margin: 33px auto 16px;
+    
     }
 }

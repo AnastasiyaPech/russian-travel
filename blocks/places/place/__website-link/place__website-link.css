@@ -2,15 +2,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.22;
     width: 456px;
     height: 22px;
     color: #ffffff;
+    transition: opacity;
 }
 
 .place__website-link:hover {
-    transition-property: opacity;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
+    transition: opacity 1s;
     opacity: 0.5;
 }

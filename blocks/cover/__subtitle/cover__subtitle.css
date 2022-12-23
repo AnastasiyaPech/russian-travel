@@ -2,11 +2,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.2;
     max-width: 360px;
-    max-height: 66px;
-    margin: 0 auto 245px;
-    text-align: center;
+    margin: 0;
     position: relative;
     z-index: 5;
 }
