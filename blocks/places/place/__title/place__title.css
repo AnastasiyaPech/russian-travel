@@ -2,11 +2,16 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 1.05;
+    line-height: 1;
     margin: 0;
-    max-width: 460px;
-    align-self: flex-end;
+    
 
+}
+
+@media screen and (max-width: 930px) {
+    .place__title {
+        font-size: 52px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -15,10 +20,12 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .place__title {
         grid-area: title;
         font-size: 32px;
         max-width: 35px;
+        line-height: 1;
+        box-sizing: border-box;
     }
 }
