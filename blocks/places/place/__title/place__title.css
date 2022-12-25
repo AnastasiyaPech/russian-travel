@@ -4,6 +4,7 @@
     font-size: 72px;
     line-height: 1;
     margin: 0;
+    border: dashed wheat;
     
 
 }
@@ -23,9 +24,17 @@
 @media screen and (max-width: 600px) {
     .place__title {
         grid-area: title;
-        font-size: 32px;
-        max-width: 35px;
+        font-size: 52px;
         line-height: 1;
         box-sizing: border-box;
+        
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .place__title {
+        font-size: 32px;
+       
+        
     }
 }

@@ -6,15 +6,23 @@
     box-sizing: border-box;
     justify-content: space-between;
     border: dashed wheat;
+    align-items: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .footer {
         max-width: 720px;
-        padding: 24px 24px 0;
+        margin: 70px 24px 24px;
     }
 }
 
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
 @media screen and (max-width: 320px) {
     .footer {
         flex-direction: column;

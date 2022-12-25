@@ -68,9 +68,8 @@
         "image"
         "paragraph";
         margin: 0;
-        justify-items: center;
+        justify-items: start;
         align-items: center;
-       
         box-sizing: border-box;
         
     }

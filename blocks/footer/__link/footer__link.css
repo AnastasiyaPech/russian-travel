@@ -7,7 +7,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.12;
+    line-height: 1;
 }
 
 .footer__link:last-child {
@@ -21,10 +21,22 @@
     opacity: 0.5;
 }
 
+@media screen and (max-width: 800px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 1;
+        margin-bottom: 32px;
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 48px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__link {
         font-size: 24px;
-        line-height: 24px;
+        line-height: 1;
         margin-bottom: 32px;
     }
 
