@@ -5,7 +5,13 @@
     margin: 0 auto 56px;
     justify-content: space-between;
     padding: 28px 48px 0;
-    border: dashed wheat;
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        padding: 28px 24px 0;
+      
+    }
 }
 
 @media screen and (max-width: 320px) {

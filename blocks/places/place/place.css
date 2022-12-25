@@ -7,8 +7,6 @@
     box-sizing: border-box;
     margin: 0;
     margin-bottom: 80px;
-    border: dashed wheat;
-
 }
 
 .place:last-child {

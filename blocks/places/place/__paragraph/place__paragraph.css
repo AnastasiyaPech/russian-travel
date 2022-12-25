@@ -1,8 +1,6 @@
 .place__paragraph {
     display: flex;
     flex-direction: column;
-    /*max-width: 484px;*/
-    border: dashed wheat;
     box-sizing: border-box;
     margin: 0;
     width: 100%;
