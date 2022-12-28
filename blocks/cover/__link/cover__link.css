@@ -9,10 +9,13 @@
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     width: 100%;
     box-sizing: border-box;
+    border: dashed bisque;
+    padding-left: 48px;
+    padding-right: 48px;
 
 
 }
@@ -25,11 +28,17 @@
     height: 100%;
     width: 100%;
     background: #2A2C2F;
-    opacity: 0;
+    opacity: 0.3;
     transition: opacity 0.6s;
 
 }
 
 .cover__link:hover::before {
-    opacity: 0.6;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+       padding: 0;
+    }
 }

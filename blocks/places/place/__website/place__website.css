@@ -1,12 +1,21 @@
-.place__website{
+.place__website {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 100%;
+    border: dashed bisque;
 }
 
 @media screen and (max-width: 600px) {
     .place__website {
         grid-area: website;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        padding-left: 16px;
+        box-sizing: border-box;
+      
     }
 }

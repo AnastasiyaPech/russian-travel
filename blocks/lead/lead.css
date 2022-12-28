@@ -6,13 +6,13 @@
     box-sizing: border-box;
     max-width: 984px;
     margin: 0 auto;
-    margin-bottom: 92px;
+    margin-bottom: 85px;
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
-        margin-bottom: 62px;
+        margin-bottom: 60px;
     }
 
 }

@@ -5,6 +5,7 @@
     line-height: 1.22;
     color: #ffffff;
     transition: opacity;
+    border: dashed bisque;
 }
 
 .place__website-link:hover {

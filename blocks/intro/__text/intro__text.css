@@ -6,6 +6,7 @@
     line-height: 1.6;
     margin: 0;
     margin-bottom: 33px;
+    border: dashed bisque;
 }
 
 @media screen and (max-width: 320px) {

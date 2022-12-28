@@ -6,12 +6,14 @@
     margin: 0;
     margin-bottom: 32px;
     text-align: center;
+    max-width: 720px;
+    border: dashed bisque;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1024px) {
     .lead__title {
-        font-size: 70px;
-        margin-bottom: 16px;
+    
+        margin-bottom: 20px;
     }
 
 }

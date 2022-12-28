@@ -6,6 +6,15 @@
     margin: 0;
     margin-left: 148px;
     margin-bottom: 88px;
+    border: dashed bisque;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: 720px;
+        margin-left: 48px;
+        margin-bottom: 100px;
+    }
 }
 
 @media screen and (max-width: 768px) {
