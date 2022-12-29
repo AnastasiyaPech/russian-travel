@@ -3,7 +3,6 @@
     object-fit: cover;
     margin: 0;
     margin-bottom: 3px;
-    border: dashed bisque;
 }
 
 @media screen and (max-width: 1024px) {

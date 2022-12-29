@@ -9,15 +9,11 @@
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
-    /*position: relative;*/
     text-align: center;
     width: 100%;
     box-sizing: border-box;
-    border: dashed bisque;
     padding-left: 48px;
     padding-right: 48px;
-
-
 }
 
 .cover__link::before {

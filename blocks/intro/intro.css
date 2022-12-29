@@ -6,7 +6,6 @@
     margin: 0;
     margin-left: 148px;
     margin-bottom: 88px;
-    border: dashed bisque;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,8 +18,7 @@
 
 @media screen and (max-width: 768px) {
     .intro {
-        max-width: 720px;
-        margin: 0 auto 88px;
+        margin: 0 auto 80px;
     }
 }
 

@@ -1,12 +1,11 @@
 .intro__text {
-    max-width: 690px;
+    max-width: 768px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
     margin: 0;
     margin-bottom: 33px;
-    border: dashed bisque;
 }
 
 @media screen and (max-width: 320px) {

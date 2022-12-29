@@ -7,12 +7,10 @@
     margin-bottom: 32px;
     text-align: center;
     max-width: 720px;
-    border: dashed bisque;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__title {
-    
         margin-bottom: 20px;
     }
 
@@ -30,7 +28,6 @@
     .lead__title {
         min-width: 288px;
         font-size: 40px;
-        margin-bottom: 16px;
     }
 
 }

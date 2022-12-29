@@ -8,14 +8,13 @@
     margin-left: 48px;
     margin-right: 48px;
     padding: 0;
-    border: dashed bisque;
 }
 
 @media screen and (max-width: 780px) {
 
     .foto-grid {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 22px;
+        margin-right: 22px;
     }
 }
 

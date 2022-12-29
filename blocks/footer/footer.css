@@ -6,7 +6,6 @@
     box-sizing: border-box;
     justify-content: space-between;
     align-items: flex-end;
-    border: dashed bisque;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,7 +23,6 @@
 
 @media screen and (max-width: 710px) {
     .footer {
-        /*max-width: 720px;*/
         margin: 70px 24px 24px;
         flex-direction: column;
         justify-content: flex-start;
@@ -33,10 +31,9 @@
 }
 @media screen and (max-width: 320px) {
     .footer {
-        flex-direction: column;
         max-width: 310px;
         padding-bottom: 24px;
-        margin: 60px auto 0;
-        margin-left: 16px;
+        margin: 45px 0 0;
+        padding-left: 16px;
     }
 }

@@ -2,8 +2,6 @@
     width: 100%;
     grid-row-start: 2;
     grid-row-end: 3;
-    border: dashed bisque;
-
 }
 
 @media screen and (max-width: 768px){

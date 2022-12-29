@@ -6,8 +6,6 @@
     margin: 0;
     margin-bottom: 23px;
     box-sizing: border-box;
-    border: dashed bisque;
-
 }
 
 .place__paragraph_text:last-child{

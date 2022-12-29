@@ -7,7 +7,6 @@
     margin: 0;
     margin-bottom: 64px;
     text-align: center;
-    border: dashed bisque;
 }
 
 @media screen and (max-width: 1024px) {
