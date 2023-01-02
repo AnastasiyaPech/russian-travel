@@ -7,6 +7,7 @@
     max-width: 984px;
     margin: 0 auto;
     margin-bottom: 85px;
+    border: dashed darkorange;
 }
 
 @media screen and (max-width: 1024px) {

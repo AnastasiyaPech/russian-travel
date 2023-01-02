@@ -6,6 +6,7 @@
     line-height: 1;
     margin: 0;
     margin-bottom: 40px;
+    border: dashed darkorange;
 }
 
 @media screen and (max-width: 320px) {

@@ -1,4 +1,4 @@
-.place__paragraph_text {
+.place__text {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -6,25 +6,25 @@
     margin: 0;
     margin-bottom: 23px;
     box-sizing: border-box;
+    border: dashed darkorange;
 }
 
-.place__paragraph_text:last-child{
+.place__text:last-child{
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph_text {
-        margin-bottom: 20px;
+    .place__text {
         font-size: 16px;
     }
 }
 
 
 @media screen and (max-width: 320px) {
-    .place__paragraph_text {
+    .place__text {
         margin-bottom: 25px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
         
     }
 }

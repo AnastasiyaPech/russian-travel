@@ -6,6 +6,7 @@
     box-sizing: border-box;
     justify-content: space-between;
     align-items: flex-end;
+    border: dashed darkorange;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,7 +17,7 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-        margin: 85px 24px 24px;
+        margin: 87px 24px 24px;
     }
 }
 

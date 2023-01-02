@@ -14,8 +14,15 @@
   margin-right: 0;
 }
 
-.header__lang-link:active {
+/*.header__lang-link:active {
   text-decoration: underline;
+}*/
+
+.header__lang-link:hover {
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

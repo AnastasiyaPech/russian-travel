@@ -5,9 +5,10 @@
     line-height: 1.22;
     color: #ffffff;
     transition: opacity;
+    max-width: fit-content;
 }
 
 .place__website-link:hover {
     transition: opacity 1s;
-    opacity: 0.5;
+    opacity: 0.8;
 }
