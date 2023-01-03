@@ -4,20 +4,10 @@
     grid-row-end: 3;
 }
 
-@media screen and (max-width: 768px){
-    .place__image {
-        max-width: 340px;
-        width: 100%;
-
-       
-    }
-}
-
-
 @media screen and (max-width: 600px){
     .place__image {
         grid-area: image;
-        width: 100%;
+       
        
     }
 }

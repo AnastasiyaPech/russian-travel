@@ -7,10 +7,9 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     align-self: baseline;
-    border: dashed darkorange;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1023px){
     .lead__caption{
         padding-left: 24px;
     }

@@ -6,10 +6,9 @@
     margin: 0;
     margin-bottom: 23px;
     box-sizing: border-box;
-    border: dashed darkorange;
 }
 
-.place__text:last-child{
+.place__text:last-child {
     margin-bottom: 0;
 }
 
@@ -20,11 +19,11 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .place__text {
         margin-bottom: 25px;
-        padding-left: 14px;
-        padding-right: 14px;
-        
+        padding-left: 13px;
+        padding-right: 13px;
+
     }
 }

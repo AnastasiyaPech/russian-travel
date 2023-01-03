@@ -3,28 +3,26 @@
     grid-template-columns: 460px 1fr;
     grid-template-rows: auto 1fr;
     row-gap: 45px;
-    column-gap: 40px;
+    column-gap: 35px;
     box-sizing: border-box;
     margin: 0;
     margin-bottom: 80px;
-    border: dashed darkorange;
 }
 
 .place:last-child {
-    margin-bottom: 89px;
+    margin-bottom: 95px;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
         grid-template-columns: 430px 1fr;
-        column-gap: 32px;
         margin-left: 30px;
         margin-right: 30px;
         margin-bottom: 90px;
     }
 
     .place:last-child {
-        margin-bottom: 92px;  
+        margin-bottom: 105px;  
     }
 }
 
@@ -52,11 +50,11 @@
         margin-bottom: 70px;
         margin-left: 20px;
         margin-right: 20px;
-        column-gap: 20px;
+        column-gap: 18px;
     }
 
     .place:last-child {
-        margin-bottom: 70px;
+        margin-bottom: 80px;
       
     }
 
@@ -71,17 +69,17 @@
         "website"
         "image"
         "paragraph";
-        margin: 0 10px;
+        margin: 0;
         justify-items: start;
         align-items: center;
         box-sizing: border-box;
-        gap: 35px;
-        margin-bottom: 65px;
+        gap: 34px;
+        margin-bottom: 70px;
         
     }
 
     .place:last-child {
-        margin-bottom: 25px;
+        margin-bottom: 40px;
       
     }
 }

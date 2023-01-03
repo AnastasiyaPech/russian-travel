@@ -7,7 +7,6 @@
     margin: 0;
     margin-bottom: 64px;
     text-align: center;
-    border: dashed darkorange;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,6 +20,8 @@
     .lead__subtitle {
         font-size: 25px;
         margin-bottom: 56px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 }
