@@ -5,6 +5,3 @@
     line-height: 1.5;
 }
 
-.list__description::first-letter{
-    text-transform: uppercase;
-}
