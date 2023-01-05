@@ -1,6 +1,6 @@
 .foto{
     margin: 0;
-    margin-bottom: 85px;
+    margin-bottom: 95px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,14 +12,14 @@
 
 @media screen and (max-width: 768px) {
     .foto {
-        margin-bottom: 80px;
+        margin-bottom: 70px;
     }
 
 }
 
 @media screen and (max-width: 320px) {
     .foto {
-        margin-bottom: 66px;
+        margin-bottom: 62px;
     }
 
 }

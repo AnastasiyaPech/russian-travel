@@ -6,7 +6,7 @@
     margin: 0;
     position: relative;
     z-index: 5;
-    margin-bottom: 32px;
+    margin-bottom: 45px;
     line-height: 1;
     margin-top: 245px;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-        margin-top: 195px;
+        margin-top: 200px;
     }
 }
 

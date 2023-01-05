@@ -6,11 +6,11 @@
     column-gap: 35px;
     box-sizing: border-box;
     margin: 0;
-    margin-bottom: 80px;
+    margin-bottom: 85px;
 }
 
 .place:last-child {
-    margin-bottom: 95px;
+    margin-bottom: 100px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,11 +18,11 @@
         grid-template-columns: 430px 1fr;
         margin-left: 30px;
         margin-right: 30px;
-        margin-bottom: 90px;
+        margin-bottom: 95px;
     }
 
     .place:last-child {
-        margin-bottom: 105px;  
+        margin-bottom: 110px;  
     }
 }
 
@@ -47,14 +47,14 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        margin-bottom: 70px;
+        margin-bottom: 80px;
         margin-left: 20px;
         margin-right: 20px;
         column-gap: 18px;
     }
 
     .place:last-child {
-        margin-bottom: 80px;
+        margin-bottom: 100px;
       
     }
 
@@ -73,11 +73,11 @@
         justify-items: start;
         align-items: center;
         gap: 34px;  
-        margin-bottom: 65px;
+        margin-bottom: 80px;
     }
 
     .place:last-child {
-        margin-bottom: 80px;
+        margin-bottom: 78px;
       
     }
 }
