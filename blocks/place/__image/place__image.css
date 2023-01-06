@@ -12,8 +12,6 @@
 @media screen and (max-width: 600px){
     .place__image {
         grid-area: image;
-        width: 100%;
-       
     }
 }
 
